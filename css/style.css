@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   background-color: #090b1a;
   color: rgba(255, 255, 255, 0.6);
