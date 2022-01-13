@@ -78,7 +78,7 @@ body {
 	&__info {
 		margin-bottom: 2.2em;
 		text-transform: uppercase;
-		// font-family: 'Lexend Deca', sans-serif;
+		color: $stat-heading;
 		font-size: 1.2rem;
 		letter-spacing: 0.2rem;
 
@@ -107,6 +107,16 @@ body {
 		color: $white;
 		font-size: 1.1rem;
 		font-weight: normal;
+	}
+
+	&__link {
+		color: $main-paragraph;
+		transition: color 0.3s;
+
+		&:hover,
+		&:visited {
+			color: $accent;
+		}
 	}
 }
 
