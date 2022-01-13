@@ -63,7 +63,8 @@ body {
 		color: $white;
 		font-size: 2.5rem;
 		line-height: 1.3;
-		&-accent {
+
+		&--accent {
 			color: $accent;
 		}
 	}
@@ -81,7 +82,7 @@ body {
 		font-size: 1.2rem;
 		letter-spacing: 0.2rem;
 
-		&-quantity {
+		&--quantity {
 			display: block;
 			margin: 0.3em 0;
 			color: $white;
