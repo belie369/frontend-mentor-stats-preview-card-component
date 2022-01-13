@@ -109,7 +109,7 @@ body {
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.footer__link:hover, .footer__link:visited {
+.footer__link:hover {
   color: #aa5cdb;
 }
 

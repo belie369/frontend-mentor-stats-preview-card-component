@@ -113,8 +113,7 @@ body {
 		color: $main-paragraph;
 		transition: color 0.3s;
 
-		&:hover,
-		&:visited {
+		&:hover {
 			color: $accent;
 		}
 	}
