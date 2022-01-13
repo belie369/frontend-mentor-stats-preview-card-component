@@ -111,4 +111,52 @@ body {
 }
 .footer__link:hover, .footer__link:visited {
   color: #aa5cdb;
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    height: 100vh;
+  }
+
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    min-width: 1109px;
+    max-width: 1109px;
+    min-height: 446px;
+    max-height: 446px;
+  }
+  .card__img {
+    min-width: 50%;
+    max-width: auto;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .card__text {
+    margin: 5em 3em 4.5em 4.7em;
+    text-align: left;
+  }
+  .card__headline {
+    margin: 0;
+    margin-bottom: 1em;
+    max-width: 85%;
+    font-size: 3rem;
+  }
+  .card__description {
+    margin-bottom: 5em;
+    padding: 0;
+    max-width: 80%;
+    font-size: 1.4rem;
+  }
+  .card__info {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 3.8em;
+  }
 }/*# sourceMappingURL=style.css.map */
