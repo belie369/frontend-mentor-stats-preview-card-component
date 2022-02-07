@@ -6,8 +6,8 @@
 	.card {
 		display: flex;
 		flex-direction: row;
-		// min-width: 1000px;
-		max-width: 700px;
+		min-width: 900px;
+		max-width: 950px;
 		min-height: 446px;
 		max-height: 446px;
 
@@ -18,7 +18,7 @@
 		}
 
 		&__text {
-			margin: 5em 3em 4.5em 4.7em;
+			margin: 4em 2em 3.5em 3.7em;
 			text-align: left;
 		}
 
@@ -30,7 +30,7 @@
 		}
 
 		&__description {
-			margin-bottom: 5em;
+			margin-bottom: 2.7em;
 			padding: 0;
 			max-width: 80%;
 			font-size: 1.4rem;
@@ -39,7 +39,7 @@
 		&__info {
 			display: inline-block;
 			margin-bottom: 0;
-			margin-right: 3.8em;
+			margin-right: 2.8em;
 		}
 	}
 

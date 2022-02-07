@@ -214,7 +214,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    max-width: 700px;
+    min-width: 900px;
+    max-width: 950px;
     min-height: 446px;
     max-height: 446px;
   }
@@ -226,7 +227,7 @@ body {
             order: 1;
   }
   .card__text {
-    margin: 5em 3em 4.5em 4.7em;
+    margin: 4em 2em 3.5em 3.7em;
     text-align: left;
   }
   .card__headline {
@@ -236,7 +237,7 @@ body {
     font-size: 3.2rem;
   }
   .card__description {
-    margin-bottom: 5em;
+    margin-bottom: 2.7em;
     padding: 0;
     max-width: 80%;
     font-size: 1.4rem;
@@ -244,7 +245,7 @@ body {
   .card__info {
     display: inline-block;
     margin-bottom: 0;
-    margin-right: 3.8em;
+    margin-right: 2.8em;
   }
 
   .footer {
